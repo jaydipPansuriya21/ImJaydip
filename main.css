@@ -1,15 +1,23 @@
 body > .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
   padding: 3rem;
-  font-family: Manrope,sans-serif!important;
+  margin: 2rem;
+  font-family: fantasy,Manrope,sans-serif!important;
   text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: darkcyan;
+  color: white;
 }
 .mem-description {
   padding: 1rem;
   font-size: 1.5rem;
   color: grey;
+}
+
+a{
+  text-decoration: none;
 }
 
 .content .title {
@@ -60,9 +68,9 @@ body > .title {
 
   .timeline .icon {
       position: absolute;
-      width: 50px;
+      width: 40px;
       height: 35px;
-      right: -32px;
+      right: -20px;
       background-color: white;
       /* border: 4px solid #FF9F55; */
       top: 15px;
@@ -120,7 +128,7 @@ body > .title {
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #e2f8ff;
     position: relative;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -193,7 +201,7 @@ body > .title {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #e1d199;
   color: white;
 }
 
@@ -281,6 +289,9 @@ body > .title {
 .intro {
   padding: 1rem;
   margin: 1rem;
+  box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+  border: 0.1px solid black;
+  background-color: #e2f8ff;
 }
 
 
