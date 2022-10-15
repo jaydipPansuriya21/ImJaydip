@@ -14,6 +14,7 @@ body > .title {
   padding: 1rem;
   font-size: 1.5rem;
   color: grey;
+  font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 
 a{
@@ -133,7 +134,7 @@ a{
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border: 1px solid grey;
-    min-width: 300px;
+    min-width: 250px;
   }
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
