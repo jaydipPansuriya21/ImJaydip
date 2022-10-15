@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://kit.fontawesome.com/94f746ff51.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title>Education</title>
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+		  <a href="./index.html">About</a>
+		  <a href="./education.html" class="active">Education</a>
+		  <a href="./career.html">Career</a>
+		  <a href="./skills.html">Skills</a>
+		  <a href="./memories.html">Memories</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+	</div>
+	<div class="title">Education</div>
+	<div class="timeline">
+	  <div class="container left">
+	    <div class="content">
+	        <div class="title">FNG School</div>		
+	        <div class="time">(2005 - 2013)</div>
+	        <p class="description">LKG to 8th STD</p>
+	    </div>
+	    <div class="icon"><i class="fa-sharp fa-solid fa-school fa-2x"></i></div>
+	  </div>
+	  <div class="container right">
+	    <div class="content">
+	        <div class="title">Nalanda Vidhyalay</div>		
+	        <div class="time">(2005 - 2013)</div>
+	        <p class="description">9th & 10th STD</p>
+	    </div>
+	    <div class="icon left-icon"><i class="fa-sharp fa-solid fa-school-circle-check fa-2x"></i></div>
+	  </div>
+	  <div class="container left">
+	    <div class="content">
+     	 	<div class="title">BAPS Gurukul, Gondal</div>		
+      		<div class="time">(2005 - 2013)</div>
+	      	<p class="description">11th & 12th science(A Group)</p>
+	    </div>
+	    <div class="icon"><i class="fa-sharp fa-solid fa-school-flag fa-2x"></i></div>
+	  </div>
+	  <div class="container right">
+	    <div class="content">
+	       <div class="title">Charusat University</div>		
+	       <div class="time">(2005 - 2013)</div>
+	       <p class="description">BTech in Computer engineering</p>
+	    </div>
+	    <div class="icon left-icon"><i class="fa-solid fa-graduation-cap fa-2x"></i></div>
+	  </div>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+	</script>
+</body>
+</html>

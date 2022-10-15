@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://kit.fontawesome.com/94f746ff51.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title>Memories</title>
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+		  <a href="./index.html">About</a>
+		  <a href="./education.html">Education</a>
+		  <a href="./career.html">Career</a>
+		  <a href="./skills.html">Skills</a>
+		  <a href="./memories.html" class="active">Memories</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+	</div>
+	<div class="title">Memories</div>
+	<div class="mem-description"><b>Once a wise man said</b> - <i>Picture has the magic to make a moment last forever.</i></div>
+	<div class="memories-container">
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m01.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m02.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m03.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m04.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m05.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m1.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m2.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m3.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m4.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m6.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m7.jpg"></div>	
+		</div>
+		<div class="memories-card">
+			<div class="memories-image"><img src="./images/m5.jpg"></div>	
+		</div>
+	</div>
+
+	<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+	</script>	
+</body>
+</html>
