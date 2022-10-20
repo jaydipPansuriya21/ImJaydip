@@ -7,8 +7,8 @@ body > .title {
   font-family: fantasy,Manrope,sans-serif!important;
   text-transform: uppercase;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  background-color: darkcyan;
-  color: white;
+  background-color: #ddd;
+  color: black;
 }
 .mem-description {
   padding: 1rem;
@@ -294,7 +294,7 @@ a{
   margin: 1rem;
   font-size: 0.9rem;
   box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
-  border: 0.1px solid #F2F6FC;
+  border: 1px solid #F2F6FC;
   background-color: #F2F6FC;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
