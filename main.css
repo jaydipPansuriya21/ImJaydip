@@ -294,9 +294,10 @@ a{
   margin: 1rem;
   font-size: 0.9rem;
   box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
-  border: 1px solid #F2F6FC;
-  background-color: #F2F6FC;
+  border: 1px solid black;
+  background-color: #235e71;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  color: white;
 }
 
 
