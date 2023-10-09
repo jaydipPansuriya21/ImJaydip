@@ -22,11 +22,11 @@
 		  </a>
 	</div>
 	<div class="intro">
-		Hello 👋, my name is Jaydip and I am 22 years old. I live in Gujarat 🏠, India. In my free time, I enjoy watching movies and web series. If you have any favorites, I would be happy to check them out 👀.<br><br>
+		Hello 👋, my name is Jaydip and I am <span class="dob"></span> years old. I live in Gujarat 🏠, India. In my free time, I enjoy watching movies and web series. If you have any favorites, I would be happy to check them out 👀.<br><br>
 
 		I have a great passion for sports and love playing and watching many games, like cricket, handball, and volleyball. Cricket is my favorite game and MS Dhoni is my favorite cricketer 🤠. <br><br>
 
-		In terms of food, I follow a vegan diet 🥗 and enjoy Panjabi cuisine 🍽 and lassi. I typically prefer tea over coffee and opt for non-alcoholic drinks like fruit juice and soft drinks 🍷.<br><br>
+		In terms of food, I follow a vegetarian diet 🥗 and enjoy Panjabi cuisine 🍽 and lassi. I typically prefer tea over coffee and opt for non-alcoholic drinks like fruit juice and soft drinks 🍷.<br><br>
 
 		Currently, I work as a software engineer 🧑‍💻 at <a href="https://www.builder.ai/" target="_blank">Builder.ai</a>. If we haven't spoken in a while, say <b>Hi</b> on any of the following social media platforms, and let's connect and catch up. I look forward to hearing from you 😍.<br><br>
 
@@ -48,6 +48,13 @@
 		    x.className = "topnav";
 		  }
 		}
+    var dob = new Date("06/21/2000");  
+    var month_diff = Date.now() - dob.getTime();  
+    var age_dt = new Date(month_diff);
+    var year = age_dt.getUTCFullYear();  
+    var age = Math.abs(year - 1970);  
+    dob_span = document.querySelector('.dob');
+    dob_span.innerText = age;
 	</script>
 </body>
 </html>
