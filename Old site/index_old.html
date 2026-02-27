@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://kit.fontawesome.com/94f746ff51.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<title>About</title>
+</head>
+<!-- <body  style="background-image: url('./images/background.jpg');"> -->
+<body>
+	<div class="topnav" id="myTopnav">
+		  <a href="./index.html" class="active">About</a>
+		  <a href="./education.html">Education</a>
+		  <a href="./career.html">Career</a>
+		  <a href="./skills.html">Skills</a>
+		  <a href="./memories.html">Memories</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+	</div>
+	<div class="intro">
+		Hello 👋, my name is Jaydip and I am <span class="dob"></span> years old. I live in Gujarat 🏠, India. In my free time, I enjoy watching movies and web series. If you have any favorites, I would be happy to check them out 👀.<br><br>
+
+		I have a great passion for sports and love playing and watching many games, like cricket, handball, and volleyball. Cricket is my favorite game and MS Dhoni is my favorite cricketer 🤠. <br><br>
+
+		In terms of food, I follow a vegetarian diet 🥗 and enjoy Panjabi cuisine 🍽 and lassi. I typically prefer tea over coffee and opt for non-alcoholic drinks like fruit juice and soft drinks 🍷.<br><br>
+
+		Currently, I work as a software engineer 🧑‍💻 at <a href="https://www.builder.ai/" target="_blank">Builder.ai</a>. If we haven't spoken in a while, say <b>Hi</b> on any of the following social media platforms, and let's connect and catch up. I look forward to hearing from you 😍.<br><br>
+
+
+	<div class="social-media-container">
+		<a href="https://www.instagram.com/imjaydip_/" target="_blank"><img class="social-media-card" src="./images/instagram.svg"></a>
+		<a href="https://www.linkedin.com/in/jaydip-pansuriya-a00163167" target="_blank"><img class="social-media-card" src="./images/linkedin.svg"></a>
+		<a href="https://linktr.ee/ImJaydip" target="_blank"><img class="social-media-card" src="./images/tree.svg"></a>
+	</div>
+	
+
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+    var dob = new Date("06/21/2000");  
+    var month_diff = Date.now() - dob.getTime();  
+    var age_dt = new Date(month_diff);
+    var year = age_dt.getUTCFullYear();  
+    var age = Math.abs(year - 1970);  
+    dob_span = document.querySelector('.dob');
+    dob_span.innerText = age;
+	</script>
+</body>
+</html>
